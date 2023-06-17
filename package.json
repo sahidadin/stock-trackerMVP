@@ -1,0 +1,53 @@
+{
+  "dependencies": {
+    "@canvasjs/charts": "^3.7.8",
+    "@canvasjs/react-charts": "^1.0.0",
+    "axios": "^1.4.0",
+    "chart.js": "^4.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "file-loader": "^6.2.0",
+    "finnhub": "^1.2.17",
+    "mongoose": "^7.2.3",
+    "morgan": "^1.10.0",
+    "node": "^20.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "name": "rfp2303-mvp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx webpack --watch --mode development & npx nodemon --watch ./server ./server/index.js",
+    "build": "npx webpack --mode production",
+    "start": "node ./server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sahidadin/rfp2303-mvp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sahidadin/rfp2303-mvp/issues"
+  },
+  "homepage": "https://github.com/sahidadin/rfp2303-mvp#readme",
+  "description": "",
+  "devDependencies": {
+    "@babel/preset-env": "^7.22.5",
+    "@babel/preset-react": "^7.22.5",
+    "autoprefixer": "^10.4.14",
+    "babel-loader": "^9.1.2",
+    "css-loader": "^6.8.1",
+    "eslint": "^8.42.0",
+    "eslint-plugin-react": "^7.32.2",
+    "nodemon": "^2.0.22",
+    "postcss": "^8.4.24",
+    "style-loader": "^3.3.3",
+    "tailwindcss": "^3.3.2",
+    "webpack": "^5.86.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
