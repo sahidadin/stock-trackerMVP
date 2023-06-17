@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html {background-color:darkgray}
+
+#App {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 100px;
+}
+#portfolio {
+  height: fit-content;
+  width: 500px;
+  margin: 20px;
+  padding: 10px;
+  border-radius:10px;
+  margin-top: 50px;
+  background-color: rgb(77, 80, 82);
+  box-shadow: 5px 5px 5px ;
+}
+
+.pheader {
+  display: block;
+  position: relative;
+  text-align: center;
+  color: aliceblue;
+  height: min-content;
+  margin-top: 10px;
+  font-size: xx-large;
+}
+
+.pstonks{
+  position: relative;
+  font-size: larger;
+  color: aliceblue;
+  margin:5px;
+
+}
+
+.price {
+  float: right;
+  color: green;
+  font-style: italic;
+  font-weight: bold;
+  margin:5px;
+}
+
+.graph {
+  border:solid;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 300x;
+  display: flex;
+
+
+}
+
+#search {
+  position: relative;
+  display:flex;
+  height: fit-content;
+  margin-top:25px;
+  text-align: center;
+  flex-direction: column;
+}
+
+.searchBar {
+height: 20px;
+width:100vh;
+margin-left: auto;
+
+}
+.searchButton{
+  height: 25px;
+}
+
+.box {
+  background-color: white;
+  width:100vh;
+  text-align: left;
+  margin-left: 16%;
+ justify-content: center;
+
+}
+
+.dropdown {
+  margin: 5px;
+}
+
+.stockName {
+  font-style: italic;
+  font-weight: bold;
+  font-size: x-large;
+  text-align: center;
+}
+
+.stockPrice {
+  color: green;
+  font-style: italic;
+  font-weight: bold;
+  font-size: xx-large;
+  text-align: center;
+
+}
